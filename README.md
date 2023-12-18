@@ -1,7 +1,11 @@
 # 2dChangematrixresolution
-Change (upscale / downscale) 2d matrix resolution -
+Change (upscale / downscale) 2d matrix Gis data resolution -
 a small java implementation utility to resample a 2d matrix into a higher or lower resolution.
-How to use
+Originally designed for resampling geographic information matrices. Top left point is (start_lng, start_lat)
+Orig_step the gps delta for each cell, and new_step the revised gps delta either at higher or lower value
+than the orig_step. The implementation uses a quite fast interpolation routine.
+
+How to use - check the following example
 
  public static void main(String[] args) {
         // TODO code application logic here
