@@ -1,6 +1,6 @@
 # 2dChangematrixresolution
-Change (upscale / downscale) 2d matrix resolution
-a small java implementation utility to resampling a 2d matrix into a higher or lower resolution.
+Change (upscale / downscale) 2d matrix resolution -
+a small java implementation utility to resample a 2d matrix into a higher or lower resolution.
 How to use
 
  public static void main(String[] args) {
